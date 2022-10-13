@@ -13,4 +13,6 @@
 - By adjusting the range of current track input and volume input values, current time and volume of an audio can be changed.
 - Backgroung color will be changed for each audio track.
 
+[live link](https://audio-player-js.netlify.app/)
+
 ![screen-shot](./images/screen-shot.png)
