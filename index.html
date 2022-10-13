@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6030dc540b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-section">
+            <div class="track-content">
+                <!-- <h1 id="head">playing songs</h1> -->
+                <div class="img">
+                    <img src="" alt="" id="track-img">
+                </div>
+                <h1 id="track-name">Track Name</h1>
+                <h2 id="artist-name"> Author Name</h2>
+            </div>
+            <div class="track-range">
+                <h3 id="cur-time">00:00</h3>
+                <input type="range" min="0" max="" value="0" id="track-input">
+                <h3 id="total-time">00:00</h3>
+            </div>
+            <div class="play-content">
+                <a href="#" id="previuos"><i class="fa-solid fa-backward-step"></i></a>
+                <a href="#" id="play"><i class="fa-solid fa-play"></i></a>
+                <a href="#" id="next"> <i class="fa-solid fa-forward-step"></i></a>
+                <a href="#" id="shuffle"><i class="fa-solid fa-shuffle"></i></a>
+            </div>
+            <div class="volume-range">
+                <a href="#" id="volume"><i class="fa-solid fa-volume-low"></i></a>
+                <input type="range" min="0" max="100" value="0" id="vol-input">
+            </div>
+            
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
