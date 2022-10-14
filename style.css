@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    background-color: #000;
+    background-color: rgb(6, 32, 31);
 }
 .music-section{
     height:90%;

@@ -1,11 +1,5 @@
 const songs=[
     {
-        name: 'Coast',
-        artist:'Hailee Steinfeld',
-        img:'./images/coast.jpg',
-        source:'./songs/Coast.mp3'
-    },
-    {
         name: '2step',
         artist:'Ed Sheeran',
         img:'./images/2step.jpg',
@@ -13,9 +7,15 @@ const songs=[
     },
     {
         name: 'Believer',
-        artist:'imagine Dragaons',
+        artist:'imagine Dragons',
         img:'./images/believers.jpg',
         source:'./songs/Believer.mp3'
+    },
+    {
+        name: 'Coast',
+        artist:'Hailee Steinfeld',
+        img:'./images/coast.jpg',
+        source:'./songs/Coast.mp3'
     },
     {
         name: 'American Pie',
@@ -62,7 +62,7 @@ const shuffle=document.getElementById('shuffle')
 const volume=document.querySelector('#volume i');
 const volInput=document.getElementById('vol-input');
 const audio=document.createElement('audio');
-const container=document.querySelector('.container');
+const container=document.querySelector('.music-section');
 
 let index=0;
 let cm, cs, tm, ts, time;
